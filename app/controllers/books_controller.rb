@@ -15,10 +15,11 @@ class BooksController < ApplicationController
     else
       render :index
     end
-  end
+cd   end
 
   def show
     @book = Book.find(params[:id])
+
   end
 
   def edit
